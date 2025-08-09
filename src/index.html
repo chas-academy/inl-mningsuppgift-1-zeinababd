@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Budget- och utgiftskoll</title>
+</head>
+<body>
+  <h1>Budget- och utgiftskoll</h1>
+
+  <input type="text" id="description" placeholder="Beskrivning" />
+  <input type="number" id="amount" placeholder="Belopp" />
+  <button id="addIncome">Lägg till inkomst</button>
+  <button id="addExpense">Lägg till utgift</button>
+
+  <h2>Inkomster</h2>
+  <ul id="incomeList"></ul>
+
+  <h2>Utgifter</h2>
+  <ul id="expenseList"></ul>
+
+  <h2>Totalt saldo: <span id="totalBalance">0</span> kr</h2>
+
+  <!-- Länka JS sist i body -->
+  <script src="script.js"></script>
+</body>
+</html>
